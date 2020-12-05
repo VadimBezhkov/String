@@ -11,7 +11,7 @@ namespace ConsoleApp3
     {
         static void Main(string[] args)
         {
-            string path = @"D:\MyTest.txt";
+            string path = @"\..\MyTest.txt";
 
             // This text is added only once to the file.
             if (!File.Exists(path))
